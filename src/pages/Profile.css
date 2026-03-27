@@ -1,0 +1,140 @@
+/* Background same as register */
+.min-h-screen {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Header */
+header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Sidebar */
+aside {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 0 10px 10px 0;
+}
+
+aside a {
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+  color: #444;
+}
+
+aside a:hover {
+  background: #667eea;
+  color: white;
+}
+
+/* Card Styling (Profile + Form + Activity) */
+main > div {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+main > div:hover {
+  transform: translateY(-2px);
+}
+
+/* Profile Header */
+main img {
+  border: 3px solid #667eea;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+button {
+  background: #667eea;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* Footer */
+footer {
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #ddd;
+}
+
+
+
+
+
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr; /* 1:3 ratio */
+      height: 100vh;
+    }
+
+    .left-section {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+
+    .right-section {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    .profile-img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+   .menu {
+      list-style: none;   /* removes bullets */
+      padding: 0;         /* removes left space */
+      margin: 0;
+    }
+
+    .menu li {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .menu li a {
+      display: block;
+      padding: 12px 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .menu li a:hover {
+      background-color: #007bff;
+      color: white;
+    }
